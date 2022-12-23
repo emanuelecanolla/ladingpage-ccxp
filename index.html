@@ -11,29 +11,47 @@
     <header>
         <img src="img/logo-ccxp.png" alt="Logo CCXP">
     </header>
-    <section>
+    <section id="section">
         <div id="col-1">
             <h1>REVIVA O ÉPICO</h1>
             <h3>DE 01 A 04 DE DEZEMBRO</h3>
             <p>Você consegue sentir? É aquela sensação de <br>finalmente poder falar em voz alta: "estamos<br> em casa". Sim, em dezembro de 2022,<br> teremos a volta da CCXP física. Mas não será<br> qualquer CCXP, vai ser a maior de todos os<br> tempos. Prepare-se para visitar seus<br> universos favoritos, explorar o Artists' Valley,<br> se emocionar nos auditórios e encontrar<br> aventuras épicas a cada passo pelos nossos <br> corredores.</p>
         </div>
         <div id="col-2">
-            <div id="countdown">
-                <p class="cd" id="dia"></p>
-                <p class="cd" id="hora"></p>
-                <p class="cd" id="min"></p>
-                <p class="cd" id="seg"></p>
+            <div class="countdown">
+                <div>
+                    <h1 id="dias"></h1>
+                </div>
+                <div>
+                    <h1 id="horas"></h1>
+                </div>
+                <div>
+                    <h1 id="minutos"></h1>
+                </div>
+                <div>
+                    <h1 id="segundos"></h1>
+                </div>
             </div>
-            <div id="col-2-2">
-                <p id="subtitle">PARA A MAIOR CCXP DE TODOS OS TEMPOS</p>
-            </div>
-            <div id="video">
-                <video width="100%" autoplay controls loop > 
+            <h3>PARA A MAIOR CCXP DE TODOS OS TEMPOS</h3>
+                <video autoplay muted controls loop> 
                 <source src="img/Arlequina.mp4" type="video/mp4">
                 </video>
             </div>
+    </section>
+    <section id="sec-2">
+      <div id="container">
+        <h3 class="teste">AINDA DÁ TEMPO DE GARANTIR O SEU, MAS CORRE!</h3>
+        <div class="ingressos">
+            <img src="img/quinta.png" alt="">
+            <img src="img/sexta.png" alt="">
+            <img src="img/sabado.png" alt="">
+            <img src="img/domingo.png" alt="">
         </div>
+      </div>
+      <div>
+        <button>Garanta o seu!</button>
+      </div>
     </section>
 </body>
-<script src="cronometro.js"></script>
+<script src="countdown.js"></script>
 </html>
