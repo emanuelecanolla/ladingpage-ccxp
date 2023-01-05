@@ -93,17 +93,17 @@ header {
 
 button{
     border-radius: 20px;
-    background-color: rgba(243, 198, 31, 1);
+    background-color: rgba(81, 73, 136, 1);
     color: white;
     text-transform: uppercase;
     font-size: 25px;
-    font-weight: 600;
+    font-weight: 700;
     padding: 40px 80px 40px 80px;
     border: 0;
 }
 
 button:hover{
-    color: rgb(100, 92, 158);
+    color: rgba(243, 198, 31, 1);
     cursor: pointer;
 }
 
